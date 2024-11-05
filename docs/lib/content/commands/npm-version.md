@@ -41,7 +41,7 @@ npm version patch -m "Upgrade to %s for reasons"
 ```
 
 If the [`sign-git-tag` config](/using-npm/config#sign-git-tag) is set, then the
-tag will be signed using the `-s` flag to git. Note that you must have a default
+tag will be signed using the `-S` flag to git. Note that you must have a default
 GPG key set up in your git config for this to work properly. For example:
 
 ```bash
